@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenido_Header {
+  background-color: red;
+  height: 150px;
+  padding: 20px;
+}
+header nav .logo {
+  width: 90px;
+  vertical-align: middle;
+}
+
+.lista_desordenada {
+  /* background-color: white; */
+  /* height: 120px; */
+  width: 70%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.lista_desordenada li {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid black;
+  text-align: center;
+  padding-inline: 5px;
+  background: white;
+}
+.lista_desordenada a {
+  text-decoration: none;
+  color: black;
+  margin: 0 10px;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+.contenido_Main {
+  background-color: blue;
+  min-height: 100vh;
+  height: auto;
+  padding: 20px;
+}
+.contenido_Main h1 {
+  font-size: 150px;
+  color: white;
+  text-align: center;
+}
+.contenido_Main p {
+  color: white;
+  text-align: center;
+  padding: 23px;
+}
+.contendorFormulario {
+  background-color: white;
+  max-width: 400px;
+  padding: 20px;
+  margin: 50px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  border-radius: 8px;
+  transition: border-color 0.2s;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+input:focus,
+textarea:focus {
+  border-color: #007aff;
+  outline: none;
+}
+textarea {
+  height: 100px;
+  resize: none;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+button {
+  /* width: 100px; */
+  padding: 10px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #005bb5;
+}
+button:active {
+  background-color: #004a99;
+}
+input[type="checkbox"] + label {
+  margin-left: 5px;
+  font-size: 14px;
+}
+::placeholder {
+  color: #888;
+  font-style: italic;
+}
+.contenido_Footer {
+  background-color: greenyellow;
+  height: 150px;
+}
